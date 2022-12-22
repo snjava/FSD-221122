@@ -1,0 +1,13 @@
+docs/~$reJava.docx
+**/.metadata/**
+**/.classpath
+**/.project
+**/bin/**
+**/.sonarlint/**
+**/**.class
+**/.recommenders/**
+**/.settings/**
+**/Servers/**
+**/.mvn/**
+docs/~$SQL.docx
+**/recordings/**
