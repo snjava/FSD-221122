@@ -5,12 +5,18 @@ public class ExceptionHandlingIntro {
 		System.out.println("===== Exception Intro Started....");
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter 1st Number : ");
-		int num1 = scan.nextInt();
-		System.out.println("Enter 2nd Number : ");
-		int num2 = scan.nextInt();
 		
-		System.out.println("Division : " + (num1/num2));
+		try {
+			System.out.println("Enter 1st Number : ");
+			int num1 = scan.nextInt();
+			System.out.println("Enter 2nd Number : ");
+			int num2 = scan.nextInt();
+			
+			System.out.println("Division : " + (num1/num2));
+		}
+		catch(ArithmeticException ex) {
+			System.out.println("You Cannot Divide the Number by 0");
+		}
 		
 		scan.close();
 		
