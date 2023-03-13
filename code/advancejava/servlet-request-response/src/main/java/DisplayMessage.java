@@ -20,5 +20,8 @@ public class DisplayMessage extends HttpServlet {
 		
 		out.print("<h1>Welcome User, '"+name+"'</h1>");
 		out.print("<h1>Your Message is '"+message+"'</h1>");
+		
+		out.print("<h1><a href='user-message'>Back To Home</a></h1>");
+		
 	}
 }
