@@ -18,7 +18,7 @@ public class CreateTaskController extends HttpServlet {
 		String schedt = request.getParameter("schedt");
 		String status = request.getParameter("status");
 		
-		Task task = new Task();
+		Task task = new Task(); // DTO (Data Transfer Object)
 			task.setTitle(title);
 			task.setDetails(details);
 			task.setSchedt(schedt);
