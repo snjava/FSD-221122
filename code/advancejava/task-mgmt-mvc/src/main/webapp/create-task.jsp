@@ -7,6 +7,9 @@
 <title>Create new Task</title>
 </head>
 <body>
+
+<%@ include file="menu.jsp" %>
+
 <div align="center">
 	<h1>Add New Task</h1>
 	

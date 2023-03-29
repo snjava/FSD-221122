@@ -9,8 +9,11 @@
 <title>View Task</title>
 </head>
 <body>
+
+<%@ include file="menu.jsp" %>
+	
 <div align="center">
-<table border="1">
+<table class="table table-hover">
 	<thead>
 		<tr>
 			<th>Title</th>
@@ -31,7 +34,10 @@
 		<td><%=task.getDetails()%></td>
 		<td><%=task.getStatus()%></td>
 		<td><%=task.getSchedt()%></td>
-		<td>Edit / Delete</td>
+		<td>
+			<a href="#?id=<%=task.getId()%>"><span class="glyphicon glyphicon-pencil"></span></a>
+			<a href="#"><span class="glyphicon glyphicon-trash"></span></a>
+		</td>
 	</tr>
 
 <%		
