@@ -35,7 +35,7 @@
 		<td><%=task.getStatus()%></td>
 		<td><%=task.getSchedt()%></td>
 		<td>
-			<a href="#?id=<%=task.getId()%>"><span class="glyphicon glyphicon-pencil"></span></a>
+			<a href="edit-my-task?id=<%=task.getId()%>"><span class="glyphicon glyphicon-pencil"></span></a>
 			<a href="#"><span class="glyphicon glyphicon-trash"></span></a>
 		</td>
 	</tr>
