@@ -28,7 +28,16 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 			<version>6.0.7</version>
+			<scope>runtime</scope>
 		</dependency>
+
+		<!-- <dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.23</version>
+			<scope>system</scope>
+			<systemPath>E:\Batches\IntuTech\FSD-22Nov22\jars\mysql-connector-java-8.0.23.jar</systemPath>
+		</dependency> -->
 
 
 	</dependencies>
