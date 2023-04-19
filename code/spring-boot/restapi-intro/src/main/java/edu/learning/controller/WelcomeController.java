@@ -26,7 +26,8 @@ public class WelcomeController {
 	
 	// http://localhost:8080/say-hello?fname=Abc&lname=xyz
 	@GetMapping("/say-hello")
-	public String sayHello(@RequestParam("fname") String firstName, @RequestParam("lname") String lastName) {
+	public String sayHello(@RequestParam("fname") String firstName, 
+			@RequestParam("lname") String lastName) {
 		String fullName = firstName + " " + lastName;
 		return "<h1>Hello "+fullName+"...</h1>";
 	}
