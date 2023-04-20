@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>edu.learning</groupId>
-	<artifactId>sb-user-input-http-method</artifactId>
+	<artifactId>phbook-rest-app.inmemory</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>sb-user-input-http-method</name>
+	<name>phbook-rest-app.inmemory</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -27,7 +27,6 @@
 			<artifactId>springdoc-openapi-ui</artifactId>
 			<version>1.6.14</version>
 		</dependency>
-
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
